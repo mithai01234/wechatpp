@@ -174,8 +174,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
     "https://example.com",
-    "https://anotherdomain.com"
-]
+    "https://wechatpp.azurewebsites.net",
+ ]
 
 
 # Application definition
@@ -217,8 +217,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'wechatpp.urls'
 
-LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "/accounts/login/"
+# LOGIN_REDIRECT_URL = "/"
+# LOGOUT_REDIRECT_URL = "/accounts/login/"
 
 TEMPLATES = [
     {
