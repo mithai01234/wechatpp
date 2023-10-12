@@ -20,7 +20,6 @@
 #     "https://your-trusted-origin.com",
 #     "https://wechatpp.azurewebsites.net",
 # ]
-
 # # Application definition
 
 # INSTALLED_APPS = [
